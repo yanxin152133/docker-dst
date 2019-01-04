@@ -1,0 +1,577 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 296177
+[00:00:00]: Current time: Fri Nov 30 19:51:31 2018
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 001
+[00:00:00]: Release(Kernel) Version: 4.15.0-39-generic
+[00:00:00]: Kernel Build Timestamp: #42-Ubuntu SMP Tue Oct 23 15:48:01 UTC 2018
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 296177 LINUX
+[00:00:00]: Build Date: 4501
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster Cluster_1 -monitor_parent_process 1979 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (4133636928)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:8.41
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (4124044096)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: THREAD - started 'Ping Job Thread' (4126145344)
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:00]: DownloadMods(14)
+[00:00:00]: Download server mod 1146082006
+[00:00:01]: Download server mod 1207269058
+[00:00:02]: Download server mod 1290228121
+[00:00:02]: Download server mod 1301033176
+[00:00:03]: Download server mod 378160973
+[00:00:03]: Download server mod 380423963
+[00:00:04]: Download server mod 444235588
+[00:00:04]: Download server mod 458587300
+[00:00:05]: Download server mod 488009136
+[00:00:06]: Download server mod 577104313
+[00:00:06]: Download server mod 622448972
+[00:00:07]: Download server mod 666155465
+[00:00:07]: Download server mod 785295023
+[00:00:08]: Download server mod 934638020
+[00:00:08]: modoverrides.lua enabling workshop-622448972	
+[00:00:08]: modoverrides.lua enabling workshop-1301033176	
+[00:00:08]: modoverrides.lua enabling workshop-488009136	
+[00:00:08]: modoverrides.lua enabling workshop-378160973	
+[00:00:08]: modoverrides.lua enabling workshop-458587300	
+[00:00:08]: modoverrides.lua enabling workshop-785295023	
+[00:00:08]: modoverrides.lua enabling workshop-1207269058	
+[00:00:08]: modoverrides.lua enabling workshop-1146082006	
+[00:00:08]: modoverrides.lua enabling workshop-934638020	
+[00:00:08]: modoverrides.lua enabling workshop-666155465	
+[00:00:08]: modoverrides.lua enabling workshop-380423963	
+[00:00:08]: modoverrides.lua enabling workshop-444235588	
+[00:00:08]: modoverrides.lua enabling workshop-577104313	
+[00:00:08]: modoverrides.lua enabling workshop-1290228121	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-444235588	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1301033176	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1146082006	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-622448972	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-785295023	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-380423963	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1290228121	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-666155465	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458587300	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-577104313	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-488009136	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-934638020	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-444235588_CLIENT	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-622448972	
+[00:00:08]: Overriding mod workshop-622448972's option wall_undeployable with value false	
+[00:00:08]: Overriding mod workshop-622448972's option health_regen with value true	
+[00:00:08]: Overriding mod workshop-622448972's option regen_value with value 50	
+[00:00:08]: Overriding mod workshop-622448972's option health_enhance with value false	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1301033176	
+[00:00:08]: Overriding mod workshop-1301033176's option LANG with value auto	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-488009136	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHeadType with value flint	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option BoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CritPvE with value 0.05	
+[00:00:08]: Overriding mod workshop-488009136's option BowDmg with value 27	
+[00:00:08]: Overriding mod workshop-488009136's option BowSilk_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option HitChanceTakeOff with value true	
+[00:00:08]: Overriding mod workshop-488009136's option BoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltDuration with value 8	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowHeadType with value ice	
+[00:00:08]: Overriding mod workshop-488009136's option AccuracyDrugEffect with value medium	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BowRange with value 13	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHitRecovery with value 0.1	
+[00:00:08]: Overriding mod workshop-488009136's option BowMissChanceSmall with value 0.4	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CritPvP with value 0.05	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowTechLevel with value MAGIC_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowTechLevel with value MAGIC_THREE	
+[00:00:08]: Overriding mod workshop-488009136's option BoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowDmgMod with value 0.5	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowDmgMod with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option BowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option CritDmgModPvP with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option CritDmgModPvE with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowRecoveryMod with value 0.6	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowDmgMod with value 1.25	
+[00:00:08]: Overriding mod workshop-488009136's option BowUses with value 50	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltRadius with value 4	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketIron_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowCraftAmount with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ProjShaftType with value log	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowMissRecovery with value 0.8	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowHeadType with value lightninggoathorn	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowPurpleGem_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltHeadType with value stinger	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowHammer_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltDmgMod with value 0.75	
+[00:00:08]: Overriding mod workshop-488009136's option MusketTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option BoltTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowGlommerFlower_req with value true	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverRope_req with value 3	
+[00:00:08]: Overriding mod workshop-488009136's option BoltHeadType with value stinger	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowBoards_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketAccMod with value 1.1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletType with value mnzironore	
+[00:00:08]: Overriding mod workshop-488009136's option LightningRodChargesNum with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletGP_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowSilk_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowHeadType with value charcoal	
+[00:00:08]: Overriding mod workshop-488009136's option ActivateCollisions with value true	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverPigskin_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowDmgMod with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltRedCap_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowLivingLog_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketRangeMod with value 0.9	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltHeadType with value gunpowder	
+[00:00:08]: Overriding mod workshop-488009136's option MusketGold_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBoards_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowTechLevel with value MAGIC_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowDmgMod with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowDmgMod with value 0.75	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BowMissChanceBig with value 0.15	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option HitChanceBugs with value true	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketFlint_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltExpDmg with value 80	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltMosquitoSack_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowGrass_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowRangeMod with value 1.2	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option BowTwigs_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowDmgMod with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketDmgMod with value 3	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowAccMod with value 0.8	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:00:08]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:00:08]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-785295023	
+[00:00:08]: Overriding mod workshop-785295023's option ownership with value 0	
+[00:00:08]: Overriding mod workshop-785295023's option rebounddmg with value 0	
+[00:00:08]: Overriding mod workshop-785295023's option dist with value 2.5	
+[00:00:08]: Overriding mod workshop-785295023's option minimapicon with value false	
+[00:00:08]: Overriding mod workshop-785295023's option bossres with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_wall with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe with value normal	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_vanilla with value false	
+[00:00:08]: Overriding mod workshop-785295023's option language with value AUTO	
+[00:00:08]: Overriding mod workshop-785295023's option companion with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_door with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_tool with value true	
+[00:00:08]: Overriding mod workshop-785295023's option healthmul with value -1	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_fence with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:08]: Overriding mod workshop-1207269058's option hbcolor with value dynamic	
+[00:00:08]: Overriding mod workshop-1207269058's option hbstyle with value heart	
+[00:00:08]: Overriding mod workshop-1207269058's option value with value true	
+[00:00:08]: Overriding mod workshop-1207269058's option ddon with value true	
+[00:00:08]: Overriding mod workshop-1207269058's option hbpos with value 1	
+[00:00:08]: Overriding mod workshop-1207269058's option hblength with value 10	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1146082006	
+[00:00:08]: Overriding mod workshop-1146082006's option config_fuel_max with value 90	
+[00:00:08]: Overriding mod workshop-1146082006's option config_recipe with value 1	
+[00:00:08]: Overriding mod workshop-1146082006's option config_spawn_time with value 30	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-934638020	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:08]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:08]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:08]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:08]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:08]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:08]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:08]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:08]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:08]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-444235588	
+[00:00:08]: Overriding mod workshop-444235588's option endoDropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option deluxeEndoFirepitBurnRate with value 0.75	
+[00:00:08]: Overriding mod workshop-444235588's option dropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option deluxeFirepitBurnRate with value 0.75	
+[00:00:08]: Overriding mod workshop-444235588's option heatStarBurnRate with value 0.9	
+[00:00:08]: Overriding mod workshop-444235588's option recipeCost with value standard	
+[00:00:08]: Overriding mod workshop-444235588's option iceStarDropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option starsSpawnHounds with value no	
+[00:00:08]: Overriding mod workshop-444235588's option iceStarBurnRate with value 0.9	
+[00:00:08]: Overriding mod workshop-444235588's option heatStarDropLoot with value yes	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-577104313	
+[00:00:08]: Overriding mod workshop-577104313's option machine_required with value 2	
+[00:00:08]: Overriding mod workshop-577104313's option ice_created with value 10	
+[00:00:08]: Overriding mod workshop-577104313's option nitre_required with value 4	
+[00:00:08]: Overriding mod workshop-577104313's option recipe_difficulty with value 1	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1290228121	
+[00:00:08]: Overriding mod workshop-1290228121's option  with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option  with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option goldnugget with value 4	
+[00:00:08]: Overriding mod workshop-1290228121's option flint with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option moonrocknugget with value 6	
+[00:00:08]: Overriding mod workshop-1290228121's option Recipe_Tab with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option language with value 1	
+[00:00:08]: Overriding mod workshop-1290228121's option nitre with value 0	
+[00:00:08]: Loading mod: workshop-444235588 (Deluxe Campfires 2.11) Version:2.11 (dst 0.6)	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1301033176_CLIENT	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-622448972	
+[00:00:08]: Overriding mod workshop-622448972's option wall_undeployable with value false	
+[00:00:08]: Overriding mod workshop-622448972's option health_regen with value true	
+[00:00:08]: Overriding mod workshop-622448972's option regen_value with value 50	
+[00:00:08]: Overriding mod workshop-622448972's option health_enhance with value false	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1301033176	
+[00:00:08]: Overriding mod workshop-1301033176's option LANG with value auto	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-488009136	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHeadType with value flint	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option BoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CritPvE with value 0.05	
+[00:00:08]: Overriding mod workshop-488009136's option BowDmg with value 27	
+[00:00:08]: Overriding mod workshop-488009136's option BowSilk_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option HitChanceTakeOff with value true	
+[00:00:08]: Overriding mod workshop-488009136's option BoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltDuration with value 8	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowHeadType with value ice	
+[00:00:08]: Overriding mod workshop-488009136's option AccuracyDrugEffect with value medium	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BowRange with value 13	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHitRecovery with value 0.1	
+[00:00:08]: Overriding mod workshop-488009136's option BowMissChanceSmall with value 0.4	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CritPvP with value 0.05	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowTechLevel with value MAGIC_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowTechLevel with value MAGIC_THREE	
+[00:00:08]: Overriding mod workshop-488009136's option BoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowDmgMod with value 0.5	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowDmgMod with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option BowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltHead_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option CritDmgModPvP with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option CritDmgModPvE with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowRecoveryMod with value 0.6	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowDmgMod with value 1.25	
+[00:00:08]: Overriding mod workshop-488009136's option BowUses with value 50	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltRadius with value 4	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketIron_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowCraftAmount with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ProjShaftType with value log	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowMissRecovery with value 0.8	
+[00:00:08]: Overriding mod workshop-488009136's option ThunderArrowHeadType with value lightninggoathorn	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowPurpleGem_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltHeadType with value stinger	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowHammer_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltDmgMod with value 0.75	
+[00:00:08]: Overriding mod workshop-488009136's option MusketTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option BoltTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowGlommerFlower_req with value true	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverRope_req with value 3	
+[00:00:08]: Overriding mod workshop-488009136's option BoltHeadType with value stinger	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowBoards_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketAccMod with value 1.1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletType with value mnzironore	
+[00:00:08]: Overriding mod workshop-488009136's option LightningRodChargesNum with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletGP_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBulletCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowSilk_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowHeadType with value charcoal	
+[00:00:08]: Overriding mod workshop-488009136's option ActivateCollisions with value true	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverPigskin_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowFeather_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowDmgMod with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option PoisonBoltRedCap_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option MagicBowLivingLog_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketRangeMod with value 0.9	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltHeadType with value gunpowder	
+[00:00:08]: Overriding mod workshop-488009136's option MusketGold_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketBoards_req with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowTechLevel with value SCIENCE_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowTechLevel with value MAGIC_TWO	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowDmgMod with value 1.5	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowDmgMod with value 0.75	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option BowMissChanceBig with value 0.15	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option HitChanceBugs with value true	
+[00:00:08]: Overriding mod workshop-488009136's option GoldArrowCraftAmount with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option MusketFlint_req with value 5	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltExpDmg with value 80	
+[00:00:08]: Overriding mod workshop-488009136's option QuiverTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option MoonstoneArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ArrowLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltMosquitoSack_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option ExplosiveBoltLog_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option FireArrowGrass_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowRangeMod with value 1.2	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowTechLevel with value SCIENCE_ONE	
+[00:00:08]: Overriding mod workshop-488009136's option BowTwigs_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option IceArrowHead_req with value 1	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowDmgMod with value 2	
+[00:00:08]: Overriding mod workshop-488009136's option MusketDmgMod with value 3	
+[00:00:08]: Overriding mod workshop-488009136's option CrossbowAccMod with value 0.8	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:08]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:08]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:08]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:08]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-458587300	
+[00:00:08]: Overriding mod workshop-458587300's option Ownership with value false	
+[00:00:08]: Overriding mod workshop-458587300's option Travel_Cost with value 32	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-785295023	
+[00:00:08]: Overriding mod workshop-785295023's option ownership with value 0	
+[00:00:08]: Overriding mod workshop-785295023's option rebounddmg with value 0	
+[00:00:08]: Overriding mod workshop-785295023's option dist with value 2.5	
+[00:00:08]: Overriding mod workshop-785295023's option minimapicon with value false	
+[00:00:08]: Overriding mod workshop-785295023's option bossres with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_wall with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe with value normal	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_vanilla with value false	
+[00:00:08]: Overriding mod workshop-785295023's option language with value AUTO	
+[00:00:08]: Overriding mod workshop-785295023's option companion with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_door with value true	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_tool with value true	
+[00:00:08]: Overriding mod workshop-785295023's option healthmul with value -1	
+[00:00:08]: Overriding mod workshop-785295023's option recipe_fence with value true	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:08]: Overriding mod workshop-1207269058's option hbcolor with value dynamic	
+[00:00:08]: Overriding mod workshop-1207269058's option hbstyle with value heart	
+[00:00:08]: Overriding mod workshop-1207269058's option value with value true	
+[00:00:08]: Overriding mod workshop-1207269058's option ddon with value true	
+[00:00:08]: Overriding mod workshop-1207269058's option hbpos with value 1	
+[00:00:08]: Overriding mod workshop-1207269058's option hblength with value 10	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1146082006	
+[00:00:08]: Overriding mod workshop-1146082006's option config_fuel_max with value 90	
+[00:00:08]: Overriding mod workshop-1146082006's option config_recipe with value 1	
+[00:00:08]: Overriding mod workshop-1146082006's option config_spawn_time with value 30	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-934638020	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:08]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:08]: Overriding mod workshop-666155465's option food_order with value 0	
+[00:00:08]: Overriding mod workshop-666155465's option show_food_units with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_estimation with value -1	
+[00:00:08]: Overriding mod workshop-666155465's option food_style with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-380423963	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option  with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_redgem with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option boulder_purple with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option foliage with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_purple with value 0.1	
+[00:00:08]: Overriding mod workshop-380423963's option spoiled_food with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option change_cave_loot with value false	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_yellow with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_marble with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option gears with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_rocks with value 0.35	
+[00:00:08]: Overriding mod workshop-380423963's option boulder_blue with value 0.2	
+[00:00:08]: Overriding mod workshop-380423963's option cutlichen with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_charcoal with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option moon_yellow with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rare_loot_bluegem with value 0.015	
+[00:00:08]: Overriding mod workshop-380423963's option goldvein_purple with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option ice with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_blue with value 0.5	
+[00:00:08]: Overriding mod workshop-380423963's option moon_orange with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option goldvein_red with value 0.1	
+[00:00:08]: Overriding mod workshop-380423963's option guano with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option seeds with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_rabbit with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_goldnugget with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_mole with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option flintless_red with value 0.2	
+[00:00:08]: Overriding mod workshop-380423963's option uncommon_loot_nitre with value 0.05	
+[00:00:08]: Overriding mod workshop-380423963's option moon_green with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_orange with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option stalagmite_green with value 0.02	
+[00:00:08]: Overriding mod workshop-380423963's option rottenegg with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option lightbulb with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option pinecone with value 0	
+[00:00:08]: Overriding mod workshop-380423963's option common_loot_flint with value 0.35	
+[00:00:08]: Overriding mod workshop-380423963's option durian with value 0	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-444235588	
+[00:00:08]: Overriding mod workshop-444235588's option endoDropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option deluxeEndoFirepitBurnRate with value 0.75	
+[00:00:08]: Overriding mod workshop-444235588's option dropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option deluxeFirepitBurnRate with value 0.75	
+[00:00:08]: Overriding mod workshop-444235588's option heatStarBurnRate with value 0.9	
+[00:00:08]: Overriding mod workshop-444235588's option recipeCost with value standard	
+[00:00:08]: Overriding mod workshop-444235588's option iceStarDropLoot with value yes	
+[00:00:08]: Overriding mod workshop-444235588's option starsSpawnHounds with value no	
+[00:00:08]: Overriding mod workshop-444235588's option iceStarBurnRate with value 0.9	
+[00:00:08]: Overriding mod workshop-444235588's option heatStarDropLoot with value yes	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-577104313	
+[00:00:08]: Overriding mod workshop-577104313's option machine_required with value 2	
+[00:00:08]: Overriding mod workshop-577104313's option ice_created with value 10	
+[00:00:08]: Overriding mod workshop-577104313's option nitre_required with value 4	
+[00:00:08]: Overriding mod workshop-577104313's option recipe_difficulty with value 1	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1290228121	
+[00:00:08]: Overriding mod workshop-1290228121's option  with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option  with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option goldnugget with value 4	
+[00:00:08]: Overriding mod workshop-1290228121's option flint with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option moonrocknugget with value 6	
+[00:00:08]: Overriding mod workshop-1290228121's option Recipe_Tab with value 0	
+[00:00:08]: Overriding mod workshop-1290228121's option language with value 1	
+[00:00:08]: Overriding mod workshop-1290228121's option nitre with value 0	
+[00:00:08]: Loading mod: workshop-1301033176 (

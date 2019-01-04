@@ -1,0 +1,85 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 296177
+[00:00:00]: Current time: Sat Nov 24 18:26:25 2018
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 001
+[00:00:00]: Release(Kernel) Version: 4.15.0-34-generic
+[00:00:00]: Kernel Build Timestamp: #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 296177 LINUX
+[00:00:00]: Build Date: 4501
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster Cluster_1 -monitor_parent_process 28907 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (4133616448)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:8.46
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (4124044096)
+[00:00:00]: THREAD - started 'Ping Job Thread' (4126145344)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: running main.lua
+	
+[00:00:00]: Could not load modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:00]: DownloadMods(0)
+[00:00:00]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	false	
+[00:00:02]: Could not load saveindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (4094937920)
+[00:00:04]: FilesExistAsyncThread started (19281 files)...
+[00:00:04]: ... FilesExistAsyncThread complete
+[00:00:08]: [200] Account Failed (6): "E_EXPIRED_TOKEN"
+[00:00:08]: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00:00:08]: !!!! Your Server Will Not Start !!!!
+[00:00:08]: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[00:00:08]: No auth token could be found.
+[00:00:08]: To generate a cluster_token you must
+[00:00:08]: open the console from a logged-in game
+[00:00:08]: client with the tilda key (~ / 

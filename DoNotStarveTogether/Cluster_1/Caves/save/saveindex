@@ -1,0 +1,304 @@
+KLEI     1 return {
+  ["last_used_slot"]=1,
+  ["slots"]={
+    {
+      ["enabled_mods"]={  },
+      ["server"]={
+        ["clan"]={ ["admin"]=false, id="", ["only"]=false },
+        ["description"]="养老生活",
+        ["encode_user_path"]=true,
+        ["game_mode"]="survival",
+        ["intention"]="cooperative",
+        ["max_players"]=3,
+        ["name"]="Yan",
+        ["online_mode"]=true,
+        ["password"]="152133",
+        ["privacy_type"]=0,
+        ["pvp"]=false,
+        ["server_language"]="en" 
+      },
+      ["session_id"]="56C570C9B97B87FC",
+      ["world"]={
+        ["options"]={
+          {
+            ["background_node_range"]={ 0, 1 },
+            ["desc"]="Delve into the caves... together!",
+            ["hideminimap"]=false,
+            id="DST_CAVE",
+            ["location"]="cave",
+            ["max_playlist_position"]=999,
+            ["min_playlist_position"]=0,
+            ["name"]="The Caves",
+            ["numrandom_set_pieces"]=0,
+            ["override_level_string"]=false,
+            ["overrides"]={
+              ["banana"]="default",
+              ["bats"]="default",
+              ["berrybush"]="often",
+              ["boons"]="default",
+              ["branching"]="default",
+              ["bunnymen"]="default",
+              ["cave_ponds"]="default",
+              ["cave_spiders"]="default",
+              ["cavelight"]="default",
+              ["chess"]="default",
+              ["disease_delay"]="default",
+              ["earthquakes"]="default",
+              ["fern"]="default",
+              ["fissure"]="default",
+              ["flint"]="often",
+              ["flower_cave"]="default",
+              ["grass"]="often",
+              ["layout_mode"]="RestrictNodesByKey",
+              ["lichen"]="default",
+              ["liefs"]="default",
+              ["loop"]="default",
+              ["marshbush"]="default",
+              ["monkey"]="default",
+              ["mushroom"]="default",
+              ["mushtree"]="default",
+              ["petrification"]="default",
+              ["prefabswaps_start"]="default",
+              ["reeds"]="default",
+              ["regrowth"]="default",
+              ["roads"]="never",
+              ["rock"]="often",
+              ["rocky"]="default",
+              ["sapling"]="often",
+              ["season_start"]="default",
+              ["slurper"]="default",
+              ["slurtles"]="default",
+              ["start_location"]="caves",
+              ["task_set"]="cave_default",
+              ["tentacles"]="default",
+              ["touchstone"]="default",
+              ["trees"]="default",
+              ["weather"]="default",
+              ["world_size"]="medium",
+              ["wormattacks"]="default",
+              ["wormhole_prefab"]="tentacle_pillar",
+              ["wormlights"]="default",
+              ["worms"]="default" 
+            },
+            ["required_prefabs"]={ "multiplayer_portal" },
+            ["substitutes"]={  },
+            ["version"]=3 
+          } 
+        } 
+      } 
+    },
+    {
+      ["enabled_mods"]={  },
+      ["server"]={  },
+      ["world"]={
+        ["options"]={
+          {
+            ["desc"]="The standard Don't Starve experience.",
+            ["hideminimap"]=false,
+            id="SURVIVAL_TOGETHER",
+            ["location"]="forest",
+            ["max_playlist_position"]=999,
+            ["min_playlist_position"]=0,
+            ["name"]="Default",
+            ["numrandom_set_pieces"]=4,
+            ["ordered_story_setpieces"]={ "Sculptures_1", "Maxwell5" },
+            ["override_level_string"]=false,
+            ["overrides"]={
+              ["layout_mode"]="LinkNodesByKeys",
+              ["roads"]="default",
+              ["season_start"]="default",
+              ["start_location"]="default",
+              ["task_set"]="default",
+              ["world_size"]="default",
+              ["wormhole_prefab"]="wormhole" 
+            },
+            ["random_set_pieces"]={
+              "Sculptures_2",
+              "Sculptures_3",
+              "Sculptures_4",
+              "Sculptures_5",
+              "Chessy_1",
+              "Chessy_2",
+              "Chessy_3",
+              "Chessy_4",
+              "Chessy_5",
+              "Chessy_6",
+              "Maxwell1",
+              "Maxwell2",
+              "Maxwell3",
+              "Maxwell4",
+              "Maxwell6",
+              "Maxwell7",
+              "Warzone_1",
+              "Warzone_2",
+              "Warzone_3" 
+            },
+            ["required_prefabs"]={ "multiplayer_portal" },
+            ["substitutes"]={  },
+            ["version"]=3 
+          } 
+        } 
+      } 
+    },
+    {
+      ["enabled_mods"]={  },
+      ["server"]={  },
+      ["world"]={
+        ["options"]={
+          {
+            ["desc"]="The standard Don't Starve experience.",
+            ["hideminimap"]=false,
+            id="SURVIVAL_TOGETHER",
+            ["location"]="forest",
+            ["max_playlist_position"]=999,
+            ["min_playlist_position"]=0,
+            ["name"]="Default",
+            ["numrandom_set_pieces"]=4,
+            ["ordered_story_setpieces"]={ "Sculptures_1", "Maxwell5" },
+            ["override_level_string"]=false,
+            ["overrides"]={
+              ["layout_mode"]="LinkNodesByKeys",
+              ["roads"]="default",
+              ["season_start"]="default",
+              ["start_location"]="default",
+              ["task_set"]="default",
+              ["world_size"]="default",
+              ["wormhole_prefab"]="wormhole" 
+            },
+            ["random_set_pieces"]={
+              "Sculptures_2",
+              "Sculptures_3",
+              "Sculptures_4",
+              "Sculptures_5",
+              "Chessy_1",
+              "Chessy_2",
+              "Chessy_3",
+              "Chessy_4",
+              "Chessy_5",
+              "Chessy_6",
+              "Maxwell1",
+              "Maxwell2",
+              "Maxwell3",
+              "Maxwell4",
+              "Maxwell6",
+              "Maxwell7",
+              "Warzone_1",
+              "Warzone_2",
+              "Warzone_3" 
+            },
+            ["required_prefabs"]={ "multiplayer_portal" },
+            ["substitutes"]={  },
+            ["version"]=3 
+          } 
+        } 
+      } 
+    },
+    {
+      ["enabled_mods"]={  },
+      ["server"]={  },
+      ["world"]={
+        ["options"]={
+          {
+            ["desc"]="The standard Don't Starve experience.",
+            ["hideminimap"]=false,
+            id="SURVIVAL_TOGETHER",
+            ["location"]="forest",
+            ["max_playlist_position"]=999,
+            ["min_playlist_position"]=0,
+            ["name"]="Default",
+            ["numrandom_set_pieces"]=4,
+            ["ordered_story_setpieces"]={ "Sculptures_1", "Maxwell5" },
+            ["override_level_string"]=false,
+            ["overrides"]={
+              ["layout_mode"]="LinkNodesByKeys",
+              ["roads"]="default",
+              ["season_start"]="default",
+              ["start_location"]="default",
+              ["task_set"]="default",
+              ["world_size"]="default",
+              ["wormhole_prefab"]="wormhole" 
+            },
+            ["random_set_pieces"]={
+              "Sculptures_2",
+              "Sculptures_3",
+              "Sculptures_4",
+              "Sculptures_5",
+              "Chessy_1",
+              "Chessy_2",
+              "Chessy_3",
+              "Chessy_4",
+              "Chessy_5",
+              "Chessy_6",
+              "Maxwell1",
+              "Maxwell2",
+              "Maxwell3",
+              "Maxwell4",
+              "Maxwell6",
+              "Maxwell7",
+              "Warzone_1",
+              "Warzone_2",
+              "Warzone_3" 
+            },
+            ["required_prefabs"]={ "multiplayer_portal" },
+            ["substitutes"]={  },
+            ["version"]=3 
+          } 
+        } 
+      } 
+    },
+    {
+      ["enabled_mods"]={  },
+      ["server"]={  },
+      ["world"]={
+        ["options"]={
+          {
+            ["desc"]="The standard Don't Starve experience.",
+            ["hideminimap"]=false,
+            id="SURVIVAL_TOGETHER",
+            ["location"]="forest",
+            ["max_playlist_position"]=999,
+            ["min_playlist_position"]=0,
+            ["name"]="Default",
+            ["numrandom_set_pieces"]=4,
+            ["ordered_story_setpieces"]={ "Sculptures_1", "Maxwell5" },
+            ["override_level_string"]=false,
+            ["overrides"]={
+              ["layout_mode"]="LinkNodesByKeys",
+              ["roads"]="default",
+              ["season_start"]="default",
+              ["start_location"]="default",
+              ["task_set"]="default",
+              ["world_size"]="default",
+              ["wormhole_prefab"]="wormhole" 
+            },
+            ["random_set_pieces"]={
+              "Sculptures_2",
+              "Sculptures_3",
+              "Sculptures_4",
+              "Sculptures_5",
+              "Chessy_1",
+              "Chessy_2",
+              "Chessy_3",
+              "Chessy_4",
+              "Chessy_5",
+              "Chessy_6",
+              "Maxwell1",
+              "Maxwell2",
+              "Maxwell3",
+              "Maxwell4",
+              "Maxwell6",
+              "Maxwell7",
+              "Warzone_1",
+              "Warzone_2",
+              "Warzone_3" 
+            },
+            ["required_prefabs"]={ "multiplayer_portal" },
+            ["substitutes"]={  },
+            ["version"]=3 
+          } 
+        } 
+      } 
+    } 
+  },
+  ["version"]=3 
+}
