@@ -12,27 +12,28 @@
 # 内存
 为了防止内存不足，开启SWAP。
       
-- 首先确认SWAP设置了多少
-      
+- 首先确认SWAP设置了多少 
+         
 ```bash
 free -m
 ```
-       
+        
 - 如果觉得不满意其空间大小，则对SWAP进行删除
-　　　　　
+       
 ```bash
 swapoff -a
+
 ```
         
 - 新增SWAP分区
-     
+        
 ```bash
 dd if=/dev/zero of=/root/swapfile bs=1M count=1024
   #1024大小可根据自己情况进行更改
 ```
        
 - 格式化交换分区文件
-      
+       
 ```bash
 mkswap /root/swapfile
 ```
@@ -214,7 +215,7 @@ Linux传输文件可参考链接：
 搭建服务器需要相关的管理人员以及相关token文件
       
 1. 获取相关文件
-进入https://accounts.klei.com/account/info该链接
+进入 https://accounts.klei.com/account/info  该链接
         
 2. 按图中步骤进行操作
 首先获取用户id,下图中的箭头所指的即是用户id，复制之后作为设置管理员文件的信息。
