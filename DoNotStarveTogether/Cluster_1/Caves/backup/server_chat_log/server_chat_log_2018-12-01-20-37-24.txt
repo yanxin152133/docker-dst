@@ -1,7 +1,0 @@
-[02:06:38]: [Join Announcement] Yan
-[02:19:46]: [Leave Announcement] Yan
-[21:49:11]: [Join Announcement] Yan
-[21:50:00]: [Leave Announcement] Yan
-[22:20:18]: [Join Announcement] Yan
-[22:23:02]: [Join Announcement] 1643525009
-[22:23:05]: [Say] (KU_qE7e81ey) Yan: 
