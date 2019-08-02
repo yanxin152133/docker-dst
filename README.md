@@ -279,3 +279,32 @@ chmod +x ./startDST.sh
 ```bash
 ./startDST.sh
 ```
+        
+# 更新游戏版本
+创建脚本文件：    
+      
+```bash
+cd ~ && touch updateDST.sh
+```
+       
+编辑脚本文件：    
+       
+```bash
+#!/bin/bash
+
+steamcmd_dir="$HOME/steamcmd"
+
+## 检查并更新更新游戏版本
+cd "$steamcmd_dir"
+./steamcmd.sh +@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +login anonymous +force_install_dir ../dontstarvetogether_dedicated_server +app_update 343050 validate +quit
+
+```
+       
+给脚本添加权限：    
+      
+```bash
+chmod +x ./startDST.sh
+```
+       
+# 模板下载
+下载地址： [DST服务器搭建](https://github.com/yanxin152133/DST)
