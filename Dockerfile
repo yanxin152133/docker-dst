@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-MAINTAINER Cyx <yanxin152133@gmail.com>
-
 RUN sed -i "s@http://.*archive.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list \
     && sed -i "s@http://.*security.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list
 
@@ -26,8 +24,6 @@ RUN cd /root/DST/bin  \
     && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Master & /root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Caves" >> start.sh  \
     && chmod +x start.sh
 
-VOLUME /root/.klei/DoNotStarveTogether/Cluster_1
-VOLUME /root/DST/mods
 
 EXPOSE 10999/udp
 EXPOSE 10998/udp
