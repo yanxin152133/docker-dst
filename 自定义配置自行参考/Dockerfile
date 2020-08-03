@@ -1,23 +1,33 @@
 FROM ubuntu:latest
-LABEL maintainer="yanxin152133@gmail.com"
 
 RUN sed -i "s@http://.*archive.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list \
     && sed -i "s@http://.*security.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list
 
-RUN dpkg --add-architecture i386 \
+RUN set -x \
+    && dpkg --add-architecture i386 \
     && apt-get update \
-    && apt-get install -y libstdc++6:i386 \
-    libgcc1:i386 \
+    && apt-get install -y --no-install-recommends --no-install-suggests \
+    lib32stdc++6 \
+    lib32gcc1 \
     libcurl4-gnutls-dev:i386 \
-    wget
-
-RUN mkdir -p /root/DST \
+    wget \
+    ca-certificates \
+    unzip \
+    && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
+    && mkdir -p /root/.klei/DoNotStarveTogether/ \
+    && mkdir -p /root/DST/mods \
     && cd /root/steamcmd \
     && wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz \
     && tar -xvzf steamcmd_linux.tar.gz \
     && cd /root/steamcmd \
-    && ./steamcmd.sh +login anonymous +force_install_dir /root/DST +app_update 343050 validate +quit
+    && ./root/steamcmd/steamcmd.sh +login anonymous +force_install_dir /root/DST +app_update 343050 +quit \    
+    && apt-get remove --purge -y wget \
+    ca-certificates \
+    unzip \
+    && apt-get clean autoclean \
+    && apt-get autoremove -y \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN cd /root/DST/bin  \
     && echo "/root/steamcmd/steamcmd.sh +@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +login anonymous +force_install_dir /root/DST +app_update 343050 +quit" > start.sh  \ 

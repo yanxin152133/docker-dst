@@ -1,30 +1,36 @@
 FROM ubuntu:latest
-LABEL maintainer="yanxin152133@gmail.com"
 
 RUN sed -i "s@http://.*archive.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list \
     && sed -i "s@http://.*security.ubuntu.com@http://repo.huaweicloud.com@g" /etc/apt/sources.list
 
-RUN dpkg --add-architecture i386 \
+RUN set -x \
+    && dpkg --add-architecture i386 \
     && apt-get update \
-    && apt-get install -y libstdc++6:i386 \
-        libgcc1:i386 \
-        libcurl4-gnutls-dev:i386 \
-        wget \
+    && apt-get install -y --no-install-recommends --no-install-suggests \
+    lib32stdc++6 \
+    lib32gcc1 \
+    libcurl4-gnutls-dev:i386 \
+    wget \
+    ca-certificates \
+    unzip \
     && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
     && cd /root/steamcmd \
     && wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz \
     && tar -xvzf steamcmd_linux.tar.gz \
-    && cd /root/.klei/DoNotStarveTogether/ \
-    && wget https://github.com/yanxin152133/DST/blob/master/MyDediServer.zip \
-    && unzip MyDediServer.zip \
-    && cd /root/DST/mods \
-    && wget https://github.com/yanxin152133/DST/blob/master/mod.zip \
-    && unzip mod.zip \
     && cd /root/steamcmd \
-    && ./steamcmd.sh +login anonymous +force_install_dir /root/DST +app_update 343050 validate +quit \
-    && apt-get remove --purge -y \
-        wget \
+    && ./root/steamcmd/steamcmd.sh +login anonymous +force_install_dir /root/DST +app_update 343050 +quit \    
+    && mkdir -p /root/.klei/DoNotStarveTogether/ \
+    && cd /root/.klei/DoNotStarveTogether/ \
+    && wget https://github.com/yanxin152133/DST/blob/master/MyDediServer.rar \
+    && tar -xvzf MyDediServer.rar \
+    && mkdir -p /root/DST/mods \
+    && cd /root/DST/mods \
+    && wget https://github.com/yanxin152133/DST/blob/master/mod.rar \
+    && tar -xvzf mod.rar \
+    && apt-get remove --purge -y wget \
+    ca-certificates \
+    unzip \
     && apt-get clean autoclean \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
