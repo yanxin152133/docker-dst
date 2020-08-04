@@ -26,11 +26,10 @@ RUN set -x \
     && mkdir -p /root/.klei/DoNotStarveTogether/ \
     && cd /root/.klei/DoNotStarveTogether/ \
     && wget https://github.com/yanxin152133/DST/tree/master/MyDediServer \
-    && chmod 777 /root/.klei/DoNotStarveTogether/MyDediServer \
-    && mkdir -p /root/DST/mods \
-    && cd /root/DST/mods \
+    && unzip Cluster_1.zip -d /root/.klei/DoNotStarveTogether \
+    && cd /root/DST \
     && wget https://github.com/yanxin152133/DST/blob/master/dedicated_server_mods_setup.lua \
-    && chmod 777 /root/DST/mods \
+    && unzip mods.zip -d /root/DST \
     && apt-get remove --purge -y wget \
         ca-certificates \
     && apt-get clean autoclean \
