@@ -18,7 +18,11 @@ RUN set -x \
     && cd /root/steamcmd \
     && wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz \
     && tar zxvf steamcmd_linux.tar.gz -C /root/steamcmd \
-    && ./steamcmd.sh +login anonymous +force_install_dir /root/DST +app_update 343050 +quit \
+    && ./steamcmd.sh \
+    +login anonymous \
+    +force_install_dir /root/DST \
+    +app_update 343050  validate \
+    +quit \
     && mkdir -p /root/.klei/DoNotStarveTogether/ \
     && cd /root/.klei/DoNotStarveTogether/ \
     && wget https://github.com/yanxin152133/DST/tree/master/MyDediServer \
@@ -32,9 +36,9 @@ RUN set -x \
     && rm -rf /var/lib/apt/lists/*
 
 RUN cd /root/DST/bin  \
-    && echo "/root/steamcmd/steamcmd.sh +@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +login anonymous +force_install_dir /root/DST +app_update 343050 +quit" > start.sh  \
-    && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -only_update_server_mods" >> start.sh \  
-    && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Master & /root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Caves" >> start.sh  \
+    && echo "/root/steamcmd/steamcmd.sh +@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +login anonymous +force_install_dir /root/DST +app_update 343050 +quit" > start.sh \
+    && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -only_update_server_mods" >> start.sh \
+    && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Master & /root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Caves" >> start.sh \
     && chmod +x start.sh
 
 EXPOSE 11000/udp
