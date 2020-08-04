@@ -13,6 +13,7 @@ RUN set -x \
         libcurl4-gnutls-dev:i386 \
         wget \
         ca-certificates \
+        unzip \
     && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
     && cd /root/steamcmd \
@@ -32,6 +33,7 @@ RUN set -x \
     && unzip mods.zip -d /root/DST \
     && apt-get remove --purge -y wget \
         ca-certificates \
+        unzip \
     && apt-get clean autoclean \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
