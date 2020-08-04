@@ -13,7 +13,7 @@ RUN set -x \
         libcurl4-gnutls-dev:i386 \
         wget \
         ca-certificates \
-        unzip \
+        git \
     && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
     && cd /root/steamcmd \
@@ -24,14 +24,14 @@ RUN set -x \
         +force_install_dir /root/DST \
         +app_update 343050  validate \
         +quit \
-    && mkdir -p /root/.klei/DoNotStarveTogether/ \
-    && cd /root/.klei/DoNotStarveTogether/ \
-    && wget https://github.com/yanxin152133/docker-dst/blob/master/Cluster_1.zip | unzip Cluster_1.zip -d /root/.klei/DoNotStarveTogether \
-    && cd /root/DST \
-    && wget https://github.com/yanxin152133/docker-dst/blob/master/mods.zip | unzip mods.zip -d /root/DST \
+    && mkdir -p /root/github \
+    && git clone https://github.com/yanxin152133/docker-dst.git \
+    && mv /root/github/docker-dst/Cluster_1/* /root/.klei/DoNotStarveTogether/Cluster_1 \
+    && mv /root/github/docker-dst/mods/* /root/DST/mods \
+    && rm -rf /root/github \
     && apt-get remove --purge -y wget \
         ca-certificates \
-        unzip \
+        git \
     && apt-get clean autoclean \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
