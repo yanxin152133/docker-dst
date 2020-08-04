@@ -26,7 +26,7 @@ RUN set -x \
     && mkdir -p /root/.klei/DoNotStarveTogether/ \
     && cd /root/.klei/DoNotStarveTogether/ \
     && wget https://github.com/yanxin152133/DST/tree/master/MyDediServer \
-    && mkdir -p /root/DST/mods \s
+    && mkdir -p /root/DST/mods \
     && cd /root/DST/mods \
     && wget https://github.com/yanxin152133/DST/blob/master/dedicated_server_mods_setup.lua \
     && apt-get remove --purge -y wget \
