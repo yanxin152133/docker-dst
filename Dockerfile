@@ -26,11 +26,9 @@ RUN set -x \
         +quit \
     && mkdir -p /root/.klei/DoNotStarveTogether/ \
     && cd /root/.klei/DoNotStarveTogether/ \
-    && wget https://github.com/yanxin152133/docker-dst/blob/master/Cluster_1.zip \
-    && unzip Cluster_1.zip -d /root/.klei/DoNotStarveTogether \
+    && wget https://github.com/yanxin152133/docker-dst/blob/master/Cluster_1.zip | unzip Cluster_1.zip -d /root/.klei/DoNotStarveTogether \
     && cd /root/DST \
-    && wget https://github.com/yanxin152133/docker-dst/blob/master/mods.zip \
-    && unzip mods.zip -d /root/DST \
+    && wget https://github.com/yanxin152133/docker-dst/blob/master/mods.zip | unzip mods.zip -d /root/DST \
     && apt-get remove --purge -y wget \
         ca-certificates \
         unzip \
