@@ -25,6 +25,7 @@ RUN set -x \
         +app_update 343050  validate \
         +quit \
     && mkdir -p /root/github \
+    && mkdir -p /root/.klei/DoNotStarveTogether \
     && cd /root/github \
     && git clone https://github.com/yanxin152133/docker-dst.git \
     && mv /root/github/docker-dst/Cluster_1 /root/.klei/DoNotStarveTogether \
