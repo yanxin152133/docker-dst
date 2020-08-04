@@ -27,8 +27,8 @@ RUN set -x \
     && mkdir -p /root/github \
     && cd /root/github \
     && git clone https://github.com/yanxin152133/docker-dst.git \
-    && mv /root/github/docker-dst/Cluster_1/* /root/.klei/DoNotStarveTogether/Cluster_1 \
-    && mv /root/github/docker-dst/mods/* /root/DST/mods \
+    && mv /root/github/docker-dst/Cluster_1 /root/.klei/DoNotStarveTogether \
+    && mv /root/github/docker-dst/mods /root/DST \
     && rm -rf /root/github \
     && apt-get remove --purge -y wget \
         ca-certificates \
