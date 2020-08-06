@@ -32,7 +32,6 @@ RUN set -x \
     && mv /root/github/docker-dst/mods/* /root/DST/mods \
     && rm -rf /root/github \
     && apt-get remove --purge -y wget \
-        ca-certificates \
         git \
     && apt-get clean autoclean \
     && apt-get autoremove -y \
@@ -44,6 +43,7 @@ RUN cd /root/DST/bin  \
     && echo "/root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Master & /root/DST/bin/dontstarve_dedicated_server_nullrenderer -shard Caves" >> start.sh \
     && chmod +x start.sh
 
+EXPOSE 10889/udp
 EXPOSE 11000/udp
 EXPOSE 10999/udp
 
