@@ -14,6 +14,7 @@ RUN set -x \
         wget \
         ca-certificates \
         git \
+        vim \
     && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
     && cd /root/steamcmd \
