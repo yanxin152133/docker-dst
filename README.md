@@ -53,6 +53,7 @@ cluster_name = ttionya test        # 游戏房间名称
 cluster_description = description  # 游戏房间描述
 lan_only_cluster = false           # 局域网游戏
 cluster_intention = madness        # 游戏偏好，可选 cooperative, competitive, social, or madness，随便设置，没卵用
+autosaver_enabled = true           # 自动保存
  
 [GAMEPLAY]
 max_players = 16                   # 最大游戏人数
@@ -124,13 +125,35 @@ return {
 ```
       
 ## 1.3. 使用方法
+### 修改本项目
+点击`fork`
+      
+#### 修改Dockerfile
+```html
+FROM ubuntu:18.04
+
+此处省略
+    && git clone https://github.com/yanxin152133/docker-dst.git \    更改这个链接
+此处省略
+```
+      
+#### cluster_token.txt
+自行获取自己的`cluster_token.txt`文件
+          
+#### 服务器配置、mod
+根据自己喜好修改相关配置
+             
+### 制作docker镜像
+参考以下链接：
+- [使用Docker Hub](https://doc.yonyoucloud.com/doc/chinese_docker/userguide/dockerhub.html)
+        
 ### 1.3.2. 运行
 ```bash
 ## 拉取
-docker pull yancccccc/dst:latest
+docker pull yancccccc/dst:latest   # yancccccc/dst:latest 替换为自己的镜像名称
 
 ## 运行
-docker run -itd --name dst -p 10889:10889/udp -p 10999:10999/udp -p 10998:10998/udp yancccccc/dst:latest
+docker run -itd --name dst -p 10889:10889/udp -p 10999:10999/udp -p 10998:10998/udp yancccccc/dst:latest   # yancccccc/dst:latest 替换为自己的镜像名称
 
 ## 10889、10999、10998三个端口可以修改Dockerfile自行设置，
 ## 同时对应的配置文件也需要进行更改，三个都为udp，
